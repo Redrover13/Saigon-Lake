@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "projects": {
+    "api": {
+      "root": "apps/api",
+      "sourceRoot": "apps/api/src",
+      "projectType": "application",
+      "targets": {}
+    },
+    "admin-portal": {
+      "root": "apps/admin-portal",
+      "sourceRoot": "apps/admin-portal/src",
+      "projectType": "application",
+      "targets": {}
+    },
+    "analytics-dashboard": {
+      "root": "apps/analytics-dashboard",
+      "sourceRoot": "apps/analytics-dashboard/src",
+      "projectType": "application",
+      "targets": {}
+    },
+    "pos-integration": {
+      "root": "apps/pos-integration",
+      "sourceRoot": "apps/pos-integration/src",
+      "projectType": "application",
+      "targets": {}
+    },
+    "core": {
+      "root": "libs/core",
+      "sourceRoot": "libs/core/src",
+      "projectType": "library",
+      "targets": {}
+    },
+    "data-access": {
+      "root": "libs/data-access",
+      "sourceRoot": "libs/data-access/src",
+      "projectType": "library",
+      "targets": {}
+    },
+    "ui-components": {
+      "root": "libs/ui-components",
+      "sourceRoot": "libs/ui-components/src",
+      "projectType": "library",
+      "targets": {}
+    },
+    "agent-framework": {
+      "root": "libs/agent-framework",
+      "sourceRoot": "libs/agent-framework/src",
+      "projectType": "library",
+      "targets": {}
+    }
+  }
+}

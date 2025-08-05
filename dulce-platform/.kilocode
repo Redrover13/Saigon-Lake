@@ -1,0 +1,75 @@
+{
+  "project": {
+    "name": "dulce-platform",
+    "description": "Dulce de Saigon F&B Data Platform",
+    "version": "0.1.0"
+  },
+  "standards": {
+    "codestyle": {
+      "typescript": "eslint + prettier",
+      "javascript": "eslint + prettier"
+    },
+    "testing": {
+      "unit": "jest",
+      "e2e": "cypress",
+      "coverage-minimum": 80
+    },
+    "documentation": {
+      "code": "JSDoc",
+      "api": "OpenAPI/Swagger"
+    }
+  },
+  "dependencies": {
+    "core": [
+      "Node.js v16+",
+      "NX",
+      "pnpm",
+      "TypeScript",
+      "React",
+      "Next.js"
+    ],
+    "google-cloud": [
+      "BigQuery",
+      "Firestore",
+      "Pub/Sub",
+      "Cloud Functions",
+      "Vertex AI",
+      "Cloud Run",
+      "Cloud Storage",
+      "IAM",
+      "Logging",
+      "Monitoring"
+    ],
+    "multi-agent": [
+      "Google ADK",
+      "NATS/Redis Streams"
+    ]
+  },
+  "environments": {
+    "development": {
+      "platform": "container",
+      "specs": {
+        "vCPUs": 4,
+        "ram": "16GB",
+        "storage": "100GB"
+      }
+    },
+    "staging": {
+      "platform": "Google Cloud Run",
+      "specs": {
+        "region": "asia-southeast1",
+        "memory": "4Gi",
+        "cpu": "2"
+      }
+    },
+    "production": {
+      "platform": "Google Cloud Run",
+      "specs": {
+        "region": "asia-southeast1",
+        "memory": "8Gi",
+        "cpu": "4",
+        "min-instances": 1
+      }
+    }
+  }
+}

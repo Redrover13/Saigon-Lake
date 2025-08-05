@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build test-lib-test-lib",
+    "startTime": "2025-08-05T09:14:00.431Z",
+    "endTime": "2025-08-05T09:14:05.312Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "test-lib-test-lib:build",
+      "target": "build",
+      "projectName": "test-lib-test-lib",
+      "hash": "89005025080474359",
+      "startTime": "2025-08-05T09:14:00.444Z",
+      "endTime": "2025-08-05T09:14:05.310Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

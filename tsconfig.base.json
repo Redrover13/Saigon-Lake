@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "test-lib/test-lib": ["libs/test-lib/test-lib/src/index.ts"]
+      "test-lib/test-lib": ["libs/test-lib/test-lib/src/index.ts"],
+      "validation-lib/validation-lib": [
+        "libs/validation-lib/validation-lib/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

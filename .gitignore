@@ -3,6 +3,12 @@
 .nx/cache
 .nx/workspace-data
 
+# Build artifacts
+dist/
 
+# Dependencies
+node_modules/
+
+# Cursor rules and AI instructions
 .cursor/rules/nx-rules.mdc
 .github/instructions/nx.instructions.md

@@ -250,8 +250,8 @@ jobs:
           secret: ${{ github.token }}
           approvers: ${{ github.actor }}
           minimum-approvals: 1
-          issue-title: "Deploy to Production"
-          issue-body: "Please approve to deploy to production"
+          issue-title: 'Deploy to Production'
+          issue-body: 'Please approve to deploy to production'
           exclude-workflow-initiator-as-approver: false
           timeout-minutes: 1440 # 24 hours
 

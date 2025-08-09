@@ -3,5 +3,26 @@
     "version": "21.3.11"
   },
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudId": "6891b992fec607152858bfc4"
+  "nxCloudId": "6891b992fec607152858bfc4",
+  "targetDefaults": {
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"]
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ]
 }

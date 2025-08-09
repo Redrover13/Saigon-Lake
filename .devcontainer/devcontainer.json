@@ -15,9 +15,7 @@
   "postCreateCommand": "pnpm add -g nx && nx --version && node -v && pnpm -v && terraform -v && java -version && gcloud --version && docker --version",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "ms-azuretools.vscode-azureterraform"
-      ]
+      "extensions": ["ms-azuretools.vscode-azureterraform"]
     }
   }
 }

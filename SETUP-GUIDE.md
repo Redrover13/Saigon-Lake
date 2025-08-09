@@ -44,11 +44,13 @@ pnpm install
 You can now start development using the NX commands:
 
 - Run a specific app:
+
   ```bash
   nx serve api
   ```
 
 - Build all projects:
+
   ```bash
   nx run-many --target=build --all
   ```
@@ -63,11 +65,13 @@ You can now start development using the NX commands:
 When you're ready to deploy to Google Cloud:
 
 1. Authenticate with Google Cloud:
+
    ```bash
    gcloud auth login
    ```
 
 2. Set your Google Cloud project:
+
    ```bash
    gcloud config set project YOUR_PROJECT_ID
    ```
